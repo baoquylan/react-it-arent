@@ -1,0 +1,40 @@
+@import './constant/index.scss';
+@import './General.scss';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif !important;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  -webkit-mask-size: 30px;
+  background-color: var(--light);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+
+.chart {
+  background-color: var(--dark-600);
+  height: 100%;
+}
+
+.enf{
+  font-family: 'Inter', sans-serif;
+}
